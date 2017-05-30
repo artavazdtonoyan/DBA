@@ -1,0 +1,8 @@
+SELECT name,
+       description,
+       type,
+       enabled,
+       roles,
+       context
+FROM   dba_priv_captures
+ORDER BY name;
